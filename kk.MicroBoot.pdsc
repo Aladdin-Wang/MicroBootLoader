@@ -20,9 +20,6 @@
     <release version="9.9.9" tag="9.9.9">
       Active development ...
     </release>
-    <release date="2026-02-27" version="0.9.9" tag="v0.9.9">
-      Initial release of MicroBoot with updated features.
-    </release>	
     <release date="2026-02-26" version="0.9.8" tag="v0.9.8">
       Initial release of MicroBoot with updated features.
     </release>			
