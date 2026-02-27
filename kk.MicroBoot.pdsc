@@ -17,15 +17,18 @@
   <repository type="git">https://github.com/Aladdin-Wang/MicroBoot.git</repository>
 
 <releases>
+    <release version="9.9.9" tag="9.9.9">
+      Active development ...
+    </release>
+    <release date="2026-02-27" version="0.9.8" tag="v0.9.8">
+      Initial release of MicroBoot with updated features.
+    </release>	
+    <release date="2024-10-11" version="0.9.7" tag="v0.9.7">
+      Initial release of MicroBoot with updated features.
+    </release>		
     <release date="2024-08-11" version="0.9.6" tag="v0.9.6">
       Initial release of MicroBoot with updated features.
     </release>
-    <release date="2024-10-11" version="0.9.7" tag="v0.9.7">
-      Initial release of MicroBoot with updated features.
-    </release>	
-    <release date="2026-02-27" version="0.9.8" tag="v0.9.8">
-      Initial release of MicroBoot with updated features.
-    </release>		
 </releases>
 
 
@@ -91,7 +94,7 @@
 #define __FLASH_CFG_PORTING_INCLUDE__ "flash_port_user.h"
          </Pre_Include_Global_h>		
     </component>	
-    <component Cclass="MicroBoot" Cversion="0.9.9" Csub="FlashDrv" Cgroup="components" Cvariant="STM32"  condition="FlashDrv">
+    <component Cclass="MicroBoot" Cversion="0.9.8" Csub="FlashDrv" Cgroup="components" Cvariant="STM32"  condition="FlashDrv">
         <description>MicroBoot flash drive</description>
         <files>
 			<file category="include" name="source/"/>			
